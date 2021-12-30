@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap');
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    /* background-color: wheat; */
+    background-image: url("../img/memphis.png");
+    color: #024873;
+}
+
+.grid-content .msg {
+    /* font-style: italic;
+    margin-left: 20px;
+    float: left; */
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background-color: #fff7ad;
+    border-radius: 10px 10px 0 0;
+}
+
+.header {
+    margin-top: 30px;
+    padding: 1px 20px 1px 20px;
+    background-color: #bf270f;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f2c53D;
+    height: 110px;
+    text-shadow: -1px -1px 0 #000, 3px -1px 0 #000, -1px 3px 0 #000, 3px 3px 0 #000;
+
+}
+
+.navigation {
+
+    background-color: #024873;
+    padding: 1px 20px 1px 20px;
+    margin-top: -50px;
+}
+
+.navigation a {
+    margin-top: 10PX;
+    float: left;
+    text-decoration: none;
+    color: beige;
+}
+
+.navigation a:hover {
+    color: #f2c53D;
+
+    font-weight: bold;
+    /* background-color: #0fa967;  */
+    /* size nya blm bener */
+
+}
+
+.menu {
+    margin-left: -40px;
+    padding: 1px 20px 3px 20px;
+
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    /* kalo inline saja tdk bisa mengatur margin nya */
+    margin-top: 0px;
+    margin-right: 40px;
+}
+
+
+.search-bar {
+    float: right;
+    margin-top: -60px;
+    margin-right: 20px;
+    /* position: relative; */
+    /* top: -65px; */
+
+}
+
+.fa-star {
+    color: gold;
+}
+
+.grid-content {
+    background: #fff7ad;
+    padding: 15px;
+    /* padding-right: 15px; */
+    /* width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;*/
+    margin: auto;
+
+}
+
+.grid-view {
+    width: 100%;
+    position: relative;
+    left: 0Px;
+    /* padding: auto; */
+
+}
+
+.grid-view .view_item {
+    /* box-shadow: 0px 1px 1px 1px #e5e5e5; */
+    display: inline-block;
+    /* border: 1px solid #e2efe1; */
+    border-radius: 10px;
+    width: 200px;
+    /* padding: 25px; */
+    background-color: white;
+    margin: 20px;
+
+}
+
+.grid-view .vi_right {
+    margin-top: -15px;
+    text-align: center;
+}
+
+.grid-view .view_item .vi_left {
+    margin-bottom: 10px;
+}
+
+.grid-view .view_item .img {
+    /* /* width: 120px; */
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid #e2efe1; */
+}
+
+.list-view .view_item .img {
+    /* /* width: 120px; */
+    width: 150px;
+    /* border: 1px solid #e2efe1; */
+}
+
+.grid-view .view_item .img {
+
+    border-radius: 10px 10px 0 0;
+
+}
+
+
+.view_item2 .right .vi_right .star {
+    margin-left: 0px;
+    font-size: 20px;
+    /* font-size: large; */
+    color: #bf814b;
+    margin-top: -10px;
+}
+
+
+/* .list-view .vi_right .title {
+    font-size: 30px;
+    margin-bottom: 15px;
+} */
+
+/* .list-view .vi_right .star {
+ 
+} */
+
+.vi_right .star {
+    color: #bf814b;
+    margin-left: -10px;
+}
+
+/* .vi_right .title {
+   
+    margin-top: -10px;
+    color: #591202;
+
+
+} */
+
+.view_item2 .vi_right .title {
+    font-weight: 600;
+    margin-top: -10px;
+    color: #591202;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.view_item .content {
+    margin-top: -10px;
+    /* margin: 5px 0; */
+    font-size: 14px;
+    /* line-height: 22px; */
+    font-weight: 200;
+}
+
+.list-view a {
+    /* font-size: 12px; */
+    color: rgb(0, 0, 0);
+    /* text-align: center; */
+    text-decoration: none;
+    margin-top: -10px;
+}
+
+
+
+
+
+#search-text-input {
+    border-top: thin solid #e5e5e5;
+    border-right: thin solid #e5e5e5;
+    border-bottom: 0;
+    border-radius: 10px;
+    border-left: thin solid #e5e5e5;
+    box-shadow: 1px 1px 1px 1px #e5e5e5;
+    float: left;
+    height: 17.5px;
+    margin: .8em 0 0 .5em;
+    outline: 0;
+    padding: .4em 0 .4em .6em;
+    width: 183px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#button-holder {
+    border-radius: 0 10px 10px 0;
+    background-color: #f1f1f1;
+    border-top: thin solid #e5e5e5;
+    border-left: thin solid #e5e5e5;
+    border-right: thin solid #e5e5e5;
+    border-bottom: 0;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #e5e5e5;
+    cursor: pointer;
+    float: left;
+    height: 29.12px;
+    margin: 10.5px 0 0 -10PX;
+    text-align: center;
+    width: 50px;
+}
+
+#button-holder img {
+    margin-top: 5px;
+    width: 20px;
+    align-items: center;
+    border: none;
+}
+
+.footer {
+    text-align: center;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.list-view .ribbon {
+    position: relative;
+    top: -210px;
+    /* margin: 0; */
+}
+
+.view_item2 .ribbon {
+    position: relative;
+    top: -420px;
+    /* margin: 0; */
+}
+
+.ribbon .movie {
+    background-color: red;
+    font-size: 14px;
+    color: #fff;
+}
+
+.ribbon .serial {
+    background-color: #0070b6;
+    font-size: 12px;
+    color: #fff;
+}
+
+
+
+
+
+
+.view_item2 .right .genre {
+    /* float: left;
+    margin-top: 3px;
+    margin-left: 20px; */
+}
+
+.view_item2 .right .genre ul li {
+    font-size: 12px;
+    list-style: none;
+    display: inline-block;
+    /* kalo inline saja tdk bisa mengatur margin nya */
+    margin-top: 0px;
+    margin-right: 10px;
+    width: 80px;
+    padding: 1px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    /* background-color: burlywood; */
+
+    /* width: 125px; */
+    background: #F2C53D;
+    color: #7E4B10;
+    text-align: center;
+    font-weight: 400;
+}
+
+.view_item2 .right .genre ul {
+    margin-top: -10px;
+    margin-left: -40px;
+}
+
+.view_item2 {
+    padding: 20px 20px 20px 20px;
+    margin: 20px;
+    display: flex;
+    /* border-radius: 10px;
+    background: #fff; */
+}
+
+.view_item2 .img {
+    width: 300px;
+    height: 446.6px;
+}
+
+.view_item2 .right {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.view_item2 .right .star {
+    margin-left: 3px;
+}
+
+.view_item2 .synopsis {
+    width: 100%;
+    line-height: 225%;
+    margin-top: -10px;
+    float: left;
+
+}
+
+.footer {
+    background-color: #bf270f;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.pemain table,
+th,
+td {
+    border: 1px solid black;
+    background-color: beige;
+    padding: 0 0 0 10px;
+}
+
+table {
+    width: 300px;
+    border-collapse: collapse;
+
+}
+
+th {
+    text-align: center;
+    background: #024873;
+    color: #fff;
+    width: 150px;
+    font-weight: normal;
+
+}
